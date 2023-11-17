@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: lightgreen;
+        }
+        .foods{
+            background-color: pink;
+        }
+        ul li {
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <header id="mostImportant">This is my website about curries</header>
+    <ul class="foods">
+        <li>eggplant eggplant</li>
+        <li>chickpea</li>
+        <li>potato</li>
+        <li>cauli</li>
+    </ul>
+    <footer>
+        copyright (c) 2023
+        <input type="button" value="click me">
+        <input type="text">
+    </footer>
+    <script>
+        const button = document.querySelector(`input[type='button']`);
+
+        button.addEventListener('mouseover', function(){console.log(event)});
+
+        const header = document.querySelector('header');
+        header.addEventListener('click', function(event){console.log(event)});
+
+        const foodList = document.querySelector('.foods');
+        const listItem = document.
+        querySelectorAll('li');
+        const newParagraph = document.
+        createElement('p');
+        newParagraph.textContent = "hi I am here";
+        header.append(newParagraph);
+
+        const newSection = document.
+        createElement('section');
+        newSection.append(newParagraph);
+
+        const body = document.
+        querySelector('body');
+        body.append(newSection);
+        
+    </script>
+</body>
+</html>

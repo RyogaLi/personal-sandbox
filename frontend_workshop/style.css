@@ -1,0 +1,34 @@
+/* What color will the list items be? Why? */
+/* orange, ul li is more specific than li */
+ul li {
+  color:orange;
+}
+
+li{
+  color:pink;
+}
+
+/* What background-color will the element with a class of hidden have? Why? */
+/* yellow, because the element with a class of hidden also have a class named highlight, based on the cascade rule, highlight came after hidden in CSS */
+.hidden{
+  color:white;
+  background-color: white;
+}
+
+.highlight{
+  background-color:yellow;
+}
+
+/* What color will the h1 be? Why?*/
+/* aqua, because class is more specific than h1 */
+h1{
+  color:lime;
+}
+
+.main-header{
+  color:aqua;
+}
+
+h1{
+  color:orchid;
+}

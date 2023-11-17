@@ -1,0 +1,34 @@
+/* Don't touch this part! */
+.flex-container{
+  border: 5px dotted black;
+  height:400px;
+}
+.flex-child{
+  height:40px;
+  width: 40px;
+  background:orchid;
+  margin:10px;
+}
+.first{
+  background-color:lime;
+}
+
+.last{
+  background-color:aqua;
+}
+/* End of don't touch this part! */
+
+/* the parent container needs to have display = flex*/
+/* main (primary) axis vs cross (secondary) axis, specified by flex-direction*/
+/* when you squish the window, switch the axis so the content will fit */
+/* justify-content: how the content will move along the main axis */
+/*  */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: stretch; */
+    /* align-items: center;  align cross the main axis */
+    /* flex-wrap: wrap;  breaks item into grid (new line) */
+    /* align-content: center; only apply when you have more than one line , how to align items in each line*/
+}

@@ -1,0 +1,19 @@
+h1 {
+    color:aliceblue;
+    background-color: black;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    /* if more than one value, top->bottom then left -> right */
+    padding: 100px;
+}
+
+li{
+    border: 5px dashed rgb(119, 119, 13);
+    margin: 10px;
+}
+
+ol {
+    border: 5px solid rgb(249, 156, 34);
+}
